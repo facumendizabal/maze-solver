@@ -10,13 +10,15 @@ Find the shortest path in a maze with this breadth-first search implementation i
 git clone https://github.com/FacuEspresso/Maze-Solver.git 
 ```
 2. Create a new virtual environment and install dependencies. 
-```bash
+```sh
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-3. Leave a valid maze image at the mazes directories and run the script.
-
+3. Leave a valid maze image at the mazes directories and run the main.py file.
+```sh
+python3 main.py
+```
 ## Usage
 
 This program takes a maze.png file, it will take each black pixel as a wall and each white one as a free path to create a matrix where 0s is a wall and a 1 is a path. For it to work, there must be only one white pixel at the first and last rows, they will be the start and end point of the maze (See the mazes/maze.png example maze as an example).
