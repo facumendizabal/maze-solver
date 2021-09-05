@@ -15,7 +15,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-3. Leave a valid maze image at the mazes directories and run the main.py file.
+3. Leave a valid maze image at the mazes directory and run the main.py file.
 ```sh
 python3 main.py
 ```
@@ -25,4 +25,4 @@ This program takes a maze.png file, it will take each black pixel as a wall and 
 
 After that, it will scan and transform the matrix to set the start and end points, also, it will enumerate each free path to then create an adjacency list graph with them (This could be also done in the previous step, but I think it makes the process a bit more clearer, dividing between the scan of the maze image and the creation of the graph).
 
-Finally, it runs a breadth-first search on the graph to find the shortest path and creates a new solved_maze.png file with the solution.
+Finally, it runs a breadth-first search on the graph to find the shortest path and creates a new solved_maze.png file with the solution at the mazes directory.
