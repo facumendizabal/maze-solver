@@ -20,3 +20,6 @@ pip install -r requirements.txt
 ## Usage
 
 This program takes a maze.png file, it will take each black pixel as a wall and each white one as a free path. For it to work, there must be an only white pixel at the first and last rows, they will be the start and end point of the maze.
+
+I.E:
+![Unsolved example maze](https://github.com/FacuEspresso/Maze-Solver/mazes/maze.png)
