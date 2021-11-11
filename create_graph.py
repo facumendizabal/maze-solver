@@ -1,9 +1,12 @@
 import sys
 
-
-# recives a maze (2d array) where 0s are walls and 1s are paths
-# returns the maze enumerating each path cell 
+ 
 def transform_maze(maze):
+    '''
+    recives a maze (2d array) where 0s are walls and 1s are paths
+    returns the maze enumerating each path cell
+    '''
+    
     maze_height = len(maze)
     nodes_count = 1
 

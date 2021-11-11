@@ -1,6 +1,9 @@
-#recives an start node, an end node and a graph adj list, applies breadth first search and returns
-# a directed graph with the shortest path from s to e
 def bfs(s, e, adj):
+    '''
+    recives an start node, an end node and a graph adj list, applies breadth first search and returns
+    a directed graph with the shortest path from s to e
+    '''
+
     solution_path = {}
     
     level = {s: 0}
