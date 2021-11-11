@@ -52,8 +52,10 @@ def transform_maze(maze):
     return maze
 
 
-# recives a transformed maze and returns its graph
 def create_graph(t_maze):
+    '''
+    recives a transformed maze and returns its graph
+    '''
     graph = {}
 
     for i in range(len(t_maze)):
