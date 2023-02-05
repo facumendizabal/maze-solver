@@ -7,7 +7,7 @@ def main():
     maze = read_image("./mazes/maze.png")
 
     #format the maze
-    transform_maze(maze)
+    maze = transform_maze(maze)
     
     #create graph from the maze and fint shortest path
     maze_graph = create_graph(maze)
